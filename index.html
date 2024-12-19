@@ -88,6 +88,10 @@
 
     .container {
       position: relative;
+      z-index: 1;
+    }
+    .home-container{
+      position: relative;
       z-index: 100;
       width: fit-content;
     }
@@ -281,7 +285,7 @@
   <!-- Home background -->
   <section id="home" class="home-section">
     <div id="rectangle-grid"></div>
-    <div class="container">
+    <div class="home-container">
       <h1>Designing for Change.</h1>
       <p class="subtext">Hi, I am a Freelance graphic designer.</p>
       <button class="btn btn-light btn-lg" onclick="scrollToSection('connect')">Let's connect!</button>
